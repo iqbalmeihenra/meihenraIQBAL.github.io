@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+    margin: 0%;
+    padding: 1%;
+}
+
+.header {
+    background: linear-gradient(-45deg, red, orange, yellow);
+    text-align: center;
+    font-size: x-large;
+    color: black;
+    padding: 5px;
+    margin: 0%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+}
+
+.navigation {
+    text-align: center;
+    background-color: black;
+    padding: 1%;
+    font-size: large;
+    color: beige;
+
+}
+
+.navigation>a:hover {
+    color: crimson;
+    transition: all .3s ease-in-out;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar {
+    text-shadow: 15PX 10px black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 40%;
+    float: right;
+}
+
+.font {
+    text-shadow: none;
+    color: crimson;
+    font-family: "Sofia", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
